@@ -7,7 +7,8 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 import java.io.* ;
-
+// Заходим в google.com, ищем что-то, например "Абра-кадабра"
+// Из результатов поиска выбираем 3-й, переходим туда и делаем screen-shot экрана
 public class ElClo { public static void main(String[] args) { 
     // Открыть страницу google.com и ввести в строке поиска ...;
     WebDriver driver = new FirefoxDriver();
